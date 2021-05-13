@@ -1,0 +1,5 @@
+---
+# role: ansible-role-samba-member
+# file: vars/RedHat.yml
+
+samba_member_packages: []
