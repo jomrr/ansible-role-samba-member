@@ -1,6 +1,8 @@
 ---
-# file: requirements.yml
+# role: jomrr.samba-member
+# file: meta/requirements.yml
 
-- src: https://github.com/jam82/ansible-role-baseline.git
-  name: baseline
-  version: main
+collections:
+  - {'name': 'community.general'}
+
+roles: []
